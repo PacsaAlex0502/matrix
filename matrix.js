@@ -64,3 +64,14 @@ for (let i = 0; i < oszlop; i++) {
     oszlopOsszegek.push(oszlopOsszeg);
 }
 console.log(oszlopOsszegek);
+//C
+let atloOsszeg1 = 0;
+for (let i = 0; i < sor; i++) {
+    atloOsszeg1 += matrix[i][i];
+}
+console.log(atloOsszeg1);
+let atloOsszeg2 = 0;
+for (let i = 0; i < sor; i++) {
+    atloOsszeg2 += matrix[i][oszlop - 1 - i];
+}
+console.log(atloOsszeg2);
